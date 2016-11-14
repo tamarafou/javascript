@@ -5,18 +5,15 @@ var sillyBtn = $('#silly')
 
 happyBtn.on("click", function () {
     box.text("Happy Tam");
-    box.add("happy.jpg");
-    <img src="happy.jpg">;
+    $( "img" ).show();
 })
 
 sadBtn.on("click", function () {
     box.text("Sad Tam");
-    box.contents("sad.jpg");
-     <img src="sad.jpg">;
+    $( "img" ).show();
 })
 
 sillyBtn.on("click", function () {
     box.text("Silly Tam");
-    box.contents("silly.jpg");
-    <img src="silly.jpg">
+    $( "img" ).show();
 })
